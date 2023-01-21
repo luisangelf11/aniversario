@@ -179,6 +179,17 @@ header h2 {
   margin-top: 1.5rem;
 }
 
+.message-2{
+  width: 300px;
+  height: auto;
+  font-weight: 500;
+  color: #d63031;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 1.5rem;
+  padding: 10px;
+}
+
 .heart{
   font-size: 55px;
   color: #d63031;
