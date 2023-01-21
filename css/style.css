@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #d63031;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  height: 60px;
+}
+
+.container {
+  margin-top: .5rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px;
+    color: #2d3436;
+}
+
+header h2 {
+  padding: 10px;
+}
+
+.card {
+  width: 250px;
+  height: 350px;
+  border-radius: 20% 60% / 100% 30%;
+}
+
+.card-2{
+  width: 250px;
+  height: 350px;
+  border-radius: 50% 60% / 10% 30%;
+}
+
+.card-2 img{
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  position: absolute;
+  border-radius: 50% 60%;
+}
+
+.card img {
+  width: 250px;
+  height: 350px;
+  position: absolute;
+  border-radius: 20% 60% / 100% 30%;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  height: 350px;
+  background-color: #ff7575a6;
+  color: #fff;
+  position: absolute;
+  border-radius: 20% 60% / 100% 30%;
+  transition: all .3s ease-in-out;
+}
+
+.info h3{
+    text-transform: uppercase;
+}
+
+.info p{
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.info-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  height: 350px;
+  background-color: #ff7575a6;
+  color: #fff;
+  position: absolute;
+  border-radius: 50% 60%;
+  transition: all .3s ease-in-out;
+}
+
+.info-2 h3{
+    text-transform: uppercase;
+}
+
+.info-2 p{
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn{
+    position: absolute;
+    top: 540px;
+    left: 130px;
+    display: block;
+    outline: 0;
+    border: 0;
+    width: 150px;
+    padding: 5px;
+    color: #fff;
+    background-color: #d63031;
+    text-align: center;
+    border-radius: 20px 10px;
+    text-transform: uppercase;
+}
+
+.btn-2{
+  position: absolute;
+  top: 1190px;
+  left: 140px;
+  display: block;
+  outline: 0;
+  border: 0;
+  width: 150px;
+  padding: 5px;
+  color: #fff;
+  background-color: #d63031;
+  text-align: center;
+  border-radius: 20px 10px;
+  text-transform: uppercase;
+}
+
+.none{
+    opacity: 0;
+}
+
+.message{
+  width: 300px;
+  height: auto;
+  font-weight: 500;
+  color: #2d3436;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.heart{
+  font-size: 55px;
+  color: #d63031;
+  animation: pulse 1s infinite linear alternate;
+}
+
+@keyframes pulse{
+  from{
+    transform: scale(.7);
+  }to{
+    transform: scale(1);
+  }
+}
